@@ -1,0 +1,105 @@
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+.firstpart{
+    border-radius: 15px;
+    width: 275px;
+    background-color:hsl(216, 50%, 16%) ;
+    padding: 1.5em;
+}
+.firstpart-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+.image 
+{   position: relative;}
+.image div{
+    position:absolute ;
+    top: 0%;
+    background-color:hsl(178, 100%, 50%) ;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.image div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+.image div:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 10px;
+}
+h3{
+    margin-top: 1.5em;
+    font-weight: 600;
+    font-size: 20px;
+    color:hsl(180, 20%, 99%) ;
+}
+p{
+    font-size: 18px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.icon-ETH{
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.icon-ETH img{
+    margin-right:5px ;
+}
+.icon-Days{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    text-align: center;  
+}
+.icon-Days img{
+    margin-right: 5px;
+}
+.image-avatar{
+   display: flex;
+   text-align: center;
+   font-size: 15px;
+   color: hsl(215, 51%, 70%);
+}
+.image-avatar img{
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 1rem;
+    width: 30px;}
+span{
+    color:white;
+    margin-left: 5px;
+}
+h3:hover, span:hover {
+     color:hsl(178, 100%, 50%);
+}
+h3, 
+.firstpart-image,
+span{
+    cursor: pointer;
+}    
+.attribution {
+    padding-top: 90em;
+    justify-content: center;
+     font-size: 11px; 
+     text-align: center; }
+.attribution a 
+     { 
+        color: hsl(228, 45%, 44%); }
